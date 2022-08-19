@@ -1,0 +1,62 @@
+
+
+(Gerenciar, instalar, está falando que é fazer na "mao")
+
+3. ACL - Não lembra nada
+
+4. Se voce nao permitir, ele nao executa, ordem das regras influencia, regra de negação.
+
+Create famous blacklist, i have a rule 9 what don't allows execute such command.
+
+
+DynamoDB é o banco mais "configuravel" pela AWS (não gerencia nada, só sobe dados)
+
+
+Se voce fica muito tempo sem fazer conexao no banco, ele entra em standby, serveless.
+
+
+Palavras chaves
+
+EBS - HD - Armazenamento de bloco
+EFS - SERVIDOR LOCAL - Armazenamento de bloco 
+Auditoria - CloudTrail (Log de segurança)
+Funcionamento - CloudWatch (Métricas)
+Lambda - nano serviços
+
+Object Storage - S3
+Block Storage - EBS e EFS
+Storage Gateway
+
+Desacoplamento - AWS SQS - Serviço de mensageria // Quill (Fila) S de SMS (Mensagem) (Sistema de fila simplificado)
+
+
+
+Segurança de responsabilidade
+
+
+1. Gerenciamento de patches np sistema operacional de instância do EC2
+2. Configurações de grupo
+
+-------
+
+
+S3 sem limite de armazenamento de dados.
+
+-------
+
+Escalamento automatico
+
+Excluir recursos com base na demanda. 
+
+----
+
+Elastic load balancer <- Primeiro a tomar o ataque DDoS
+
+É usado para distribuir tráfego para várias instâncias do EC2
+
+
+------
+
+Serviço que fornece recomendações de otimização de segurança de infraestrutura
+
+AWS Trusted Advisor
